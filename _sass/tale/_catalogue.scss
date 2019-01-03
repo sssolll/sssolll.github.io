@@ -17,14 +17,14 @@
 
   &-time {
     color: $default-tint;
-    font-family: $serif-secondary;
+    font-family: $myFirstFontSet;
     letter-spacing: .5px;
   }
 
   &-title {
     color: $default-shade;
     display: block;
-    font-family: $sans-serif;
+    font-family: $myFirstFontSet;
     font-size: 2rem;
     font-weight: 700;
     margin: .5rem 0;
@@ -32,7 +32,7 @@
 
   &-line {
     @include transition(all .3s ease-out);
-    border-top: .2rem solid $default-shade;
+    border-top: .2rem solid $catalogue-line-color;
     display: block;
     width: 2rem;
   }

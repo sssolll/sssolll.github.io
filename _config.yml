@@ -1,6 +1,6 @@
 # Site settings
 title:          Default
-#description:    "Minimal Jekyll theme for storytellers"
+# description:    "blog ..."
 baseurl:        ""
 url:            "https://ssrssa.github.io/"
 
@@ -22,6 +22,9 @@ include:
 sass:
   sass_dir:     _sass
   style:        compressed
+
+# Disqus
+disqus_shortname: sssolll-github-io
 
 # Gems
 plugins:
