@@ -1,0 +1,7 @@
+<h1 class="catalogue-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<time class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+<div class="post-summary">
+    {{ post.description | default: post.excerpt | strip_html | truncatewords: 75 }}
+</div>
+<div class="clearfix"></div>
+{% include post_tags.html tags=post.tags %}

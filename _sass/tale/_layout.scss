@@ -90,3 +90,18 @@ footer {
     font-size: .8rem;
   }
 }
+
+.post-tags {
+  font-size: 0.9em;
+  margin: .25em;
+  a {
+    background: $a-color;
+    color:#ffffff;
+    padding: 0 .5em;
+    border-radius: 4px;
+
+  }
+  a + a {
+    margin-left: .25em;
+  }
+}
