@@ -1,4 +1,4 @@
 ---
-name: 건대문콘
+name: django
 title: html
 ---

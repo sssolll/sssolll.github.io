@@ -1,4 +1,4 @@
 ---
-name: html
+name: aws_ec2
 title: html
 ---
